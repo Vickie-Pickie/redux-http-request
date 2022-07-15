@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 10px auto;
+  width: 400px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  padding: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button[type="button"] {
+  margin-left: 10px;
+}
+
+input {
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[name="name"] {
+  flex: 1 0;
+  margin-right: 10px;
+}
+
+input[name="price"] {
+  width: 20%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item {
+  font-size: 18px;
+  display: flex;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.item_name {
+  margin-right: 40px;
+  text-transform: uppercase;
+  width: 250px;
+}
+
+.item_price {
+  font-weight: 600;
+}
+
+span {
+  cursor: pointer;
+}
+.edit {
+  margin-right: 10px;
+}
+
+.filter_form {
+  margin: 10px 0 20px;
+}
